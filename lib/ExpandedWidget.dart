@@ -30,12 +30,14 @@ class myhome extends StatelessWidget{
       body: Column(
         children: [
           Expanded(
+            flex: 4,
             child: Container(
               color: Colors.pink,
               height: 100,
             ),
           ) ,
           Expanded(
+            flex: 2,
             child: Container(
               color: Colors.blue,
               height: 100,
@@ -43,7 +45,7 @@ class myhome extends StatelessWidget{
           ),
           Container(
             color: Colors.blueGrey,
-            height: 200,
+            height: 100,
           ),
           Container(
             color: Colors.orange,
